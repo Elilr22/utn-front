@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3e5d8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article{
+    background-color: white;
+    width: 70%;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+:root{
+    --font-title:30px;
+    --backgraund-page:beige;
+
+
+}
+
+h2{
+    margin: 20px 0;
+    font-size: var(--);
+}
+p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #5f5b57;
+}
+.omelette{
+    background-color: rgb(243, 197, 205);
+    padding: 20px;
+    border-radius: 10px;
+}
+.omelette h3{
+    font-size: 18px;
+    color: purple;
+}
+.omelette ul{
+    margin-left: 20px;
+}
+.omelette ul li{
+    margin:5px 0
+}
+h3{
+    color: brown;
+    margin: 20px 0;
+}
+
+ul,ol{
+    margin-left: 20px;
+}
+
+li{
+    margin: 5px 0;
+}
+li::marker{
+    color: brown;
+}
+hr{
+    border-color: brown;
+
+}
+h2:hover{
+    color :red
+}
+
+.nutrition p {
+    color: black;
+    border-bottom: 1px solid beige;
+    padding-bottom: 10px ;
+    
+}
+.nutrition p span{
+    display: inline-block;
+    width: 50%;
+}
+
+.cantidad{
+    color: brown;
+}
